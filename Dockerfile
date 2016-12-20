@@ -18,6 +18,8 @@ RUN apt-get update \
         subversion \
         unzip \
         wget \
+        curl \
+        python-pip \
     && dpkg --add-architecture i386 \
         && apt-get update \
         && apt-get install -y \
