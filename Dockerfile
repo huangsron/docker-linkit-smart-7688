@@ -20,6 +20,7 @@ RUN apt-get update \
         wget \
         curl \
         python-pip \
+        vim \
     && dpkg --add-architecture i386 \
         && apt-get update \
         && apt-get install -y \
